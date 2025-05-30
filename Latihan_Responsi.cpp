@@ -72,7 +72,7 @@ int main() {
     stack<Koruptor> deletedStack;
     int pilihan;
     do {
-        cout << "\nMenu:\n1. Tambah Data\n2. Tampilkan Data\n3. Hapus Data\n4. Undo Hapus Terakhir\n5. Tampilkan Stack Hapus\n0. Keluar\nPilih: ";
+        cout << "\nMenu:\n1. Tambah Data\n2. Tampilkan Data\n3. Hapus Data\n4. Undo Hapus Terakhir\n5. Tampilkan Stack Hapus\n6. Keluar\nPilih: ";
         cin >> pilihan;
         cin.ignore();
         if (pilihan == 1) {
